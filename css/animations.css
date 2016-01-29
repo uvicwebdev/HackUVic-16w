@@ -1,0 +1,62 @@
+/*HackVictoria Animations
+January 2016*/
+/* Animations ----------------------------------- */ 
+
+/*Fadeup, for main content (h1)*/
+@-webkit-keyframes color-change {
+    0%    	{ background: rgba(0,0,0,0.5); }
+    25%    	{ background: rgba(0,255,0,0.5); }
+    50%     { background: rgba(255,0,0,0.5); }
+    75%     { background: rgba(0,0,255,0.5); }
+    100%	{ background: rgba(0,0,0,0.5); }
+}
+@-moz-keyframes color-change {
+    0%    	{ background: rgba(0,0,0,0.5); }
+    25%    	{ background: rgba(0,255,0,0.5); }
+    50%    	{ background: rgba(255,0,0,0.5); }
+    75%     { background: rgba(0,0,255,0.5); }
+    100%	{ background: rgba(0,0,0,0.5); }
+}
+@keyframes color-change {
+    0%    	{ background: rgba(0,0,0,0.5); }
+    25%    	{ background: rgba(0,255,0,0.5); }
+    50%    	{ background: rgba(255,0,0,0.5); }
+    75%     { background: rgba(0,0,255,0.5); }
+    100%	{ background: rgba(0,0,0,0.5); }
+}
+/*Fadeup, for main content (h1)*/
+@-webkit-keyframes fadeup {
+    0%     { opacity: 0; -webkit-transform: translate(0px, 5px);}
+}
+@-moz-keyframes fadeup {
+    0%     { opacity: 0; -moz-transform: translate(0px, 5px);}
+}
+@keyframes fadeup {
+    0%    { opacity: 0; transform: translate(0px, 5px);}
+}
+/*Fadeup-delay, for sub-content*/
+@-webkit-keyframes fadeup-delay {
+    0%    { opacity: 0; }
+    30%   { opacity: 0; -webkit-transform: translate(0px, 5px);}
+}
+@-moz-keyframes fadeup-delay {
+    0%    { opacity: 0; }
+    30%   { opacity: 0; -moz-transform: translate(0px, 5px);}
+}
+@keyframes fadeup-delay {
+    0%    { opacity: 0; }
+    30%   { opacity: 0; transform: translate(0px, 5px);}
+}
+/*Fadeup-delay, for sub-sub-content*/
+@-webkit-keyframes fadeup-delay-more {
+    0%    { opacity: 0; }
+    60%   { opacity: 0; -webkit-transform: translate(0px, 5px);}
+}
+@-moz-keyframes fadeup-delay-more {
+    0%    { opacity: 0; }
+    60%   { opacity: 0; -moz-transform: translate(0px, 5px);}
+}
+@keyframes fadeup-delay-more {
+    0%    { opacity: 0; }
+    60%   { opacity: 0; transform: translate(0px, 5px);}
+}

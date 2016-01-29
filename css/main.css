@@ -1,5 +1,10 @@
 /*Flex*/
 *,
+/*
+HackVictoria Main Stylesheet
+January 2016
+*/
+/*Global ----------------------------------- */
 *:before,
 *:after {
     -webkit-box-sizing: border-box;
@@ -8,6 +13,7 @@
     margin: 0;
     padding: 0;
 }
+/*Typography ----------------------------------- */
 h1 {
     font-weight: 300;
     font-size: 2.25vw;
@@ -36,6 +42,7 @@ u {
     padding-right: 1rem;
     font-weight: 400;
 }
+/*Containers ----------------------------------- */
 .poop-holder {
     position: relative;
     margin-top: -1rem;
@@ -60,7 +67,10 @@ u {
     width: 100%;
     height: 100%;
     color: transparent;
-    background: rgba(0,0,0,.1)
+    background: rgba(0,0,0,.1);
+    -webkit-animation: color-change 10s infinite;
+    -moz-animation: color-change 10s infinite;
+    animation: color-change 10s infinite;
 }
 u:nth-of-type(2) {
     padding: 0 1rem;
@@ -70,15 +80,11 @@ u:nth-of-type(2) {
     min-height: 740px;
     padding: 8% 12%;
 }
+/*Flex ----------------------------------- */
 .flex {
     display: flex;
     display: -webkit-flex;
     display: -ms-flexbox;
-}
-.flex-horizontal-center {
-    align-items: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
 }
 .flex-spread {
     justify-content: space-around;
@@ -95,6 +101,23 @@ u:nth-of-type(2) {
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
 }
+/*Animations ----------------------------------- */
+.first-section {
+    -webkit-animation: fadeup 1s;
+    -moz-animation: fadeup 1s;
+    animation: fadeup 1s; 
+}
+.second-section {
+    -webkit-animation: fadeup-delay 1s;
+    -moz-animation: fadeup-delay 1s;
+    animation: fadeup-delay 1s; 
+}
+.third-section {
+    -webkit-animation: fadeup-delay-more 1s;
+    -moz-animation: fadeup-delay-more 1s;
+    animation: fadeup-delay-more 1s;
+}
+/*Media Queries ----------------------------------- */
 @media (min-width:1201px) {
     h1 {
         font-size: 32px;
