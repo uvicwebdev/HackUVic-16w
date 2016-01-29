@@ -36,16 +36,14 @@ u {
     padding-right: 1rem;
     font-weight: 400;
 }
-img {
-    max-width: 700px;
-}
 .poop-holder {
     position: relative;
+    margin-top: -1rem;
 }
 .poop,
 .poop-after {
     font-size: 1.9vw;
-    border: 2px solid rgba(0,0,0,.5);
+    border: 1px solid rgba(0,0,0,9);
     padding: 12px 24px;
     position: relative;
     z-index: 2;
