@@ -320,6 +320,9 @@ u:nth-of-type(2) {
   background: url("https://tookapic.imgix.net/photos/2016/11/8/2/82ee1fbc377200dfb439498ff8c5d14f.jpeg?w=1540&q=70&s=1c9f105d5e59678e74fea86f09c53ffe") repeat fixed 100%;
 }
 .parallax-inner{
+  -webkit-animation: fadeup-delay-more 1s;
+  -moz-animation: fadeup-delay-more 1s;
+  animation: fadeup-delay-more 1s;
   padding-top: 100%;
   padding-bottom: 100%;
 }
