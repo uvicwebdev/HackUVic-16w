@@ -105,12 +105,12 @@ u:nth-of-type(2) {
 .first-section {
     -webkit-animation: fadeup 1s;
     -moz-animation: fadeup 1s;
-    animation: fadeup 1s; 
+    animation: fadeup 1s;
 }
 .second-section {
     -webkit-animation: fadeup-delay 1s;
     -moz-animation: fadeup-delay 1s;
-    animation: fadeup-delay 1s; 
+    animation: fadeup-delay 1s;
 }
 .third-section {
     -webkit-animation: fadeup-delay-more 1s;
@@ -182,4 +182,60 @@ u:nth-of-type(2) {
     .poop-after {
         font-size: 3.8vw;
     }
+    /* Dominique Addition */
+    .pagetext{
+        width: 90%;
+        min-height: 160px;
+    }
+    .text{
+      width: 95%;
+    }
+    .button{
+      width: 80%;
+      padding: 1%;
+    }
 }
+  /* Dominique Addition */
+.pagetext{
+  width: 90%;
+  min-height: 70px;
+  margin: 1% auto;
+  border: 1px solid #EFA831;
+}
+.text{
+  text-align: center;
+  float: left;
+  width: 75%;
+  font-weight: bold;
+}
+.button{
+  float: right;
+  width: 19%;
+  padding: 1%;
+  margin-bottom: 4%;
+}
+.btn{
+  float: left;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #3D3C3A;
+  font-size: 22px;
+  background: #54C571;
+  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn:hover{
+  background: #4CC552;
+  text-decoration: none;
+}
+/*-----Start Parallax - TODO -----*/
+/*.parallax{
+  background: url("https://tookapic.imgix.net/photos/2016/11/8/2/82ee1fbc377200dfb439498ff8c5d14f.jpeg?w=1540&q=70&s=1c9f105d5e59678e74fea86f09c53ffe") repeat fixed 100%;
+}
+.parallax-inner{
+  padding-top: 100%;
+  padding-bottom: 100%;
+}*/
+/* End Dominique Addition */
