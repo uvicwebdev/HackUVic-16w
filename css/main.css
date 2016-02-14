@@ -151,21 +151,6 @@ u:nth-of-type(2) {
     .poop-after {
         font-size: 2.3vw;
     }
-    /* Dominique Addition */
-    .pagetext{
-        width: 90%;
-        min-height: 160px;
-    }
-    .text{
-      width: 95%;
-      font-size: 2.8vw;
-      font-weight: bold;
-      padding-top: 10px;
-    }
-    .button{
-      width: 80%;
-      padding: 1%;
-    }
 }
 @media (max-width:1000px) {
     h1 {
@@ -178,21 +163,6 @@ u:nth-of-type(2) {
     }
     li {
         font-size: 16px;
-    }
-    /* Dominique Addition */
-    .pagetext{
-        width: 90%;
-        min-height: 160px;
-    }
-    .text{
-      width: 95%;
-      font-size: 3.2vw;
-      font-weight: bold;
-      padding-top: 10px;
-    }
-    .button{
-      width: 80%;
-      padding: 1%;
     }
 }
 @media (max-width:800px) {
@@ -207,21 +177,6 @@ u:nth-of-type(2) {
     li {
         font-size: 14px;
     }
-    /* Dominique Addition */
-    .pagetext{
-        width: 90%;
-        min-height: 160px;
-    }
-    .text{
-      width: 95%;
-      font-size: 3.5vw;
-      font-weight: bold;
-      padding-top: 10px;
-    }
-    .button{
-      width: 80%;
-      padding: 1%;
-    }
 }
 @media (max-width:600px) {
     h1 {
@@ -231,21 +186,6 @@ u:nth-of-type(2) {
     .poop,
     .poop-after {
         font-size: 3.5vw;
-    }
-    /* Dominique Addition */
-    .pagetext{
-        width: 90%;
-        min-height: 160px;
-    }
-    .text{
-      width: 95%;
-      font-size: 3.8vw;
-      font-weight: bold;
-      padding-top: 10px;
-    }
-    .button{
-      width: 80%;
-      padding: 1%;
     }
 }
 @media (max-width:400px) {
@@ -257,116 +197,19 @@ u:nth-of-type(2) {
     .poop-after {
         font-size: 3.8vw;
     }
-    /* Dominique Addition */
-    .pagetext{
-        width: 90%;
-        min-height: 160px;
-    }
-    .text{
-      width: 95%;
-      font-size: 4.1vw;
-      font-weight: bold;
-      padding-top: 35%;
-    }
-    .button{
-      width: 80%;
-      padding: 1%;
-    }
 }
   /* Dominique Addition */
-.PageText{
-  width: 90%;
-  min-height: 70px;
-  margin: 1% auto;
-  border: 1px solid #EFA831;
-}
-.Text{
-  text-align: center;
-  float: left;
-  width: 75%;
-  font-size: 2.25vw;
-  font-weight: bold;
-  padding-top: 10px;
-}
-.Button{
-  float: right;
-  width: 19%;
-  padding: 1%;
-  margin-bottom: 4%;
-}
-.btn{
-  float: left;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  color: #3D3C3A;
-  font-size: 22px;
-  background: #54C571;
-  padding: 10px 20px 10px 20px;
-  font-weight: bold;
-  text-decoration: underline;
-  -webkit-animation: color-change 10s infinite;
-  -moz-animation: color-change 10s infinite;
-  animation: color-change 10s infinite;
-}
-.btn:hover{
-  background: #4CC552;
-  text-decoration: none;
-}
-.ButtonHolder{
+.Sign-Up{
+  font-size: 40px;
+  padding-bottom: 5px;
   -webkit-animation: fadeup 1s;
   -moz-animation: fadeup 1s;
   animation: fadeup 1s;
 }
-/*-----Start Parallax - TODO -----*/
-.parallax{
-  background: url("https://tookapic.imgix.net/photos/2016/11/8/2/82ee1fbc377200dfb439498ff8c5d14f.jpeg?w=1540&q=70&s=1c9f105d5e59678e74fea86f09c53ffe") repeat fixed 100%;
+.Sign-Up a{
   opacity: 0.8;
-}
-.parallax-inner{
-  -webkit-animation: fadeup-delay-more 1s;
-  -moz-animation: fadeup-delay-more 1s;
-  animation: fadeup-delay-more 1s;
-  padding-top: 30%;
-  padding-bottom: 30%;
-}
-h4{
-  text-align: center;
-  font-size: 400%;
-  color: #4A4444;
-  text-transform: uppercase;
-  letter-spacing: 1%;
-  margin: 30% 0;
-}
-h5{
-  text-align: center;
-  font-size: 275%;
-  color: #E5e5e5;
-  text-transform: uppercase;
-  letter-spacing: 1%;
-}
-header{
-  background: #00ff00;
-  width: 100%;
-  height: 45px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  opacity: 0.90;
-}
-.header a{
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-}
-.header a:hover{
-  color:#fff;
+  font-style: normal;
+  font-weight: lighter;
   text-decoration: underline;
-}
-.header a h6{
-  text-align: center;
-  float: left;
-  font-size: 25px;
 }
 /* End Dominique Addition */
