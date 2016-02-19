@@ -21,7 +21,7 @@ h1,h2,h3 {
     font-weight: 300;
     line-height: 2;
     max-width: 490px;
-    padding-top: 200px;
+    padding-top: 230px;
     margin: auto;
     margin-bottom: 20px;
 }
@@ -55,6 +55,33 @@ u {
     padding-right: 1rem;
     font-weight: 400;
 }
+strong {
+    font-weight: 500;
+}
+.nav-section span {
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 30px 0 8px 0;
+}
+.nav-section ol,
+.nav-section ul,
+.nav-section span
+ {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.nav-section ol li,
+.nav-section ul li {
+    list-style: decimal;
+    list-style-position: inside;
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+.nav-section ul li {
+    list-style: none;
+}
 .fixed-nav {
     z-index: 99;
     background-color: rgba(255,255,255,1);
@@ -62,7 +89,7 @@ u {
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 500px;
+    width: 604px;
     height: 50px;
 }
 .fixed-nav li {
@@ -75,7 +102,7 @@ u {
 }
 /*Elements*/
 hr {
-    max-width: 60%;
+    max-width: 90%;
     margin: auto;
     margin-bottom: -22px;
     border: none;
@@ -83,12 +110,22 @@ hr {
     background-color: #000;
     height: 1px;
 }
+@media (min-width: 550px) {
+    hr {
+        max-width: 80%;
+    }
+}
+@media (min-width: 750px) {
+    hr {
+        max-width: 60%;
+    }
+}
 /*Containers*/
 .hero-container {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 150px);
 }
-.title-container {
-    margin: auto;
+.nav-section {
+    margin: 100px auto;
 }
 /*Poop Containers*/
 .poop-holder-container {
