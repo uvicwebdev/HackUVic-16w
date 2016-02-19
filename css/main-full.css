@@ -14,8 +14,16 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     letter-spacing: 0.5px;
+    margin: 10px;
 }
-h1,h2,h3 {
+@media (min-width: 650px) {
+    body {
+        margin: 0;
+    }
+}
+h1,
+h2,
+h3 {
     font-size: 20px;
     text-align: center;
     font-weight: 300;
@@ -29,7 +37,6 @@ h2 {
     background-color: #FFF;
     padding-top: 0;
     font-weight: 500;
-    width: 100%;
     max-width: 150px;
 }
 h3 {
@@ -51,9 +58,16 @@ a {
     text-decoration: none;
 }
 u {
+    font-weight: 500;
     text-decoration: none;
-    padding-right: 1rem;
-    font-weight: 400;
+    -webkit-animation: text-color-change 50s infinite;
+    -moz-animation: text-color-change 50s infinite;
+    animation: text-color-change 50s infinite;
+
+}
+p,
+li {
+    line-height:1.5;
 }
 strong {
     font-weight: 500;
@@ -62,7 +76,7 @@ strong {
     display: block;
     font-weight: 500;
     font-size: 15px;
-    padding: 30px 0 8px 0;
+    padding: 8px 0 8px 0;
 }
 .nav-section ol,
 .nav-section ul,
@@ -73,12 +87,16 @@ strong {
     margin: auto;
     text-align: center;
 }
+.nav-section p {
+    margin-bottom: 20px;
+}
 .nav-section ol li,
 .nav-section ul li {
     list-style: decimal;
     list-style-position: inside;
     font-size: 15px;
     padding-bottom: 8px;
+    font-weight: 300;
 }
 .nav-section a {
     text-decoration: underline;
@@ -132,6 +150,10 @@ hr {
 .nav-section {
     margin: 100px auto;
 }
+.judging p,
+.judging ol {
+    text-align: justify;
+}
 /*Poop Containers*/
 .poop-holder-container {
     text-align: center;
@@ -170,12 +192,12 @@ hr {
     animation: color-change 10s infinite;
 }
 /*Animations ----------------------------------- */
-.first-section {
+.first-fade {
     -webkit-animation: fadeup 1s;
     -moz-animation: fadeup 1s;
     animation: fadeup 1s;
 }
-.second-section {
+.second-fade {
     -webkit-animation: fadeup-delay 1s;
     -moz-animation: fadeup-delay 1s;
     animation: fadeup-delay 1s;

@@ -17,9 +17,13 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js">
+
+    </script>
 </head>
 <body>
-    <section class="first-section">
+    <section class="first-fade">
     <nav class="fixed-nav">
         <ul>
             <li><a href="#">guidelines</a></li>
@@ -33,11 +37,11 @@
     <!-- Hero / Register -->
     <div class="flex flex-direction-col flex-align-horizontal flex-spread container">
         <div class="hero-container">
-            <section class="first-section">
+            <section class="first-fade">
                     <h1><b>HackVictoria</b> is an event for developers and designers of all skill levels to launch their
                         own project that makes something about Victoria better. <strong>March 12th and 13th</strong>, at the University of Victoria. </h1>
             </section>
-            <section class="second-section">
+            <section class="second-fade">
                 <div class="poop-holder-container">
                     <div class="poop-holder">
                         <div class="poop">
@@ -51,8 +55,10 @@
     </div>
     <!-- Guidelines -->
     <div class="nav-section">
-        <hr>
-        <h2>Guidelines</h2>
+        <section class="second-fade">
+            <hr>
+            <h2>Guidelines</h2>
+        </section>
         <h3>
             The <strong>objective</strong> is to find something in Victoria that could be better, and make it awesome with technology
         </h3>
@@ -98,15 +104,88 @@
                 </a>
             </li>
         </ul>
+        <span>Deals</span>
+        <ul>
+            <li>
+                <a target="_blank" href="https://education.github.com/pack">
+                    GitHub Student Pack
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="http://startupstash.com/">
+                    List of Start up Resources
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://auth0.com/ ">
+                    App Authentication (free up to 7000 active users)
+                </a>
+            </li>
+        </ul>
     </div>
     <!-- Schedule -->
     <div class="nav-section">
         <hr>
         <h2>Schedule</h2>
-        <h3>
-            The <strong>objective</strong> is to find something in Victoria that could be better, and make it awesome with technology
-        </h3>
+            <span>Saturday, March 12th</span>
+            <ul>
+                <li><u>10am</u> Open Ceremonies and Rules Overview</li>
+                <li><u>11am</u> Lunch/Socialize/Finalize Teams</li>
+                <li><u>12pm</u> Start Hacking</li>
+                <li><u>5pm</u> Dinner</li>
+                <li><u>10pm</u> Night-time Snack</li>
+            </ul>
+            <span>Sunday, March 13th</span>
+            <ul>
+                <li><u>10am</u> Breakfast</li>
+                <li><u>12pm</u> Presentations</li>
+                <li><u>1pm</u> Lunch</li>
+                <li><u>2pm</u> Awards ceremony</li>
+                <li><u>3pm</u> Clean up</li>
+            </ul>
+    </div>
+    <!-- Judging -->
+    <div class="nav-section judging">
+        <hr>
+        <h2>Judging</h2>
+            <span>Technical complexity, /20 (weighted)</span>
+            <p>
+                How technically difficult was the project to build and execute? How well was it executed? Were there any
+                obvious bugs in the demo? Judges will briefly review the source code and assign a score. This category
+                will be weighted by the experience of the team to make the playing field even for first year students
+                competing against 4th years or professionals.
+            </p>
+            <span>Benefit to the community, /10</span>
+            <p>
+                Judges will assign a score based on how beneficial they think the project will be to the community as a
+                whole. 1 being the project would have a marginal impact, 5 being the project has the potential to be
+                used daily by many Victorians.
+            </p>
+            <span>Presentation, /10</span>
+            <p>
+                At the end of the hackathon each team will give a short presentation and demo of their project.
+                The presentation should include:
+            </p>
+            <ol>
+                <li>
+                    A brief description of the motivation to build the project
+                </li>
+                <li>
+                    An overview of technologies used
+                </li>
+                <li>
+                    A demo of how the project works, and the scenario where it would be used
+                </li>
+                <li>
+                    An overview of what the nexts steps for the project should be, are there features that need to be added?
+                    Is there a minor bug that needs to be fixed? What would the team need to do after the hackathon in
+                    able for the project to be ready to be used by the people of Victoria.
+                </li>
+            </ol>
     </div>
     <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+    <script type="text/javascript">
+        $('')
+    </script>
 </body>
 </html>
