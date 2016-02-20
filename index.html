@@ -54,7 +54,7 @@
             </div>
         </div>
         <!-- Schedule -->
-        <div class="nav-section">
+        <div id ="schedule" class="nav-section">
             <hr>
             <h2>Schedule</h2>
             <span>Saturday, March 12th</span>
@@ -75,7 +75,7 @@
             </ul>
         </div>
         <!-- Guidelines -->
-        <div class="nav-section">
+        <div id="guidelines" class="nav-section">
             <section class="second-fade">
                 <hr>
                 <h2>Guidelines</h2>
@@ -151,7 +151,7 @@
             </section>
         </div>
         <!-- Judging -->
-        <div class="nav-section judging">
+        <div id="judging" class="nav-section judging">
             <hr>
             <h2>Judging</h2>
             <span>Technical Complexity /20 (weighted)</span>
@@ -202,7 +202,7 @@
             </ul>
         </div>
         <!-- Sponsors -->
-        <div class="nav-section">
+        <div id="sponsors" class="nav-section">
             <hr>
             <h2>Sponsors</h2>
             <a target="_blank" href="http://metalab.co/"><img src="images/metalab-logo.png" alt="MetaLab" /></a>
@@ -210,17 +210,22 @@
                 Interested in sponsoring? <a target-"_blank" href="mailto:erikreppel@gmail.com">Shoot us an email</a>.
             </p>
         </div>
-        <footer>
+        <footer id="contact">
             <ul>
-                <li><a target="blank" href="http://uvic.club/">Website</a></li>
-                <li><a target="blank" href="https://github.com/kelseyll">GitHub</a></li>
-                <li><a target="blank" href="https://www.facebook.com/groups/UVic.io/">Facebook</a></li>
-                <li><a target="blank" href="">Twitter</a></li>
+                <li><a target="blank" href="http://uvic.club/">website</a></li>
+                <li><a target="blank" href="https://github.com/kelseyll">github</a></li>
+                <li><a target="blank" href="https://www.facebook.com/groups/UVic.io/">facebook</a></li>
+                <li><a target="blank" href="https://twitter.com/UVicWebDev">twitter</a></li>
             </ul>
         </footer>
         <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
         <script type="text/javascript">
-        $('')
+        $('a').click(function(){
+            $('html, body').animate({
+                scrollTop: $( $(this).attr('href') ).offset().top
+            }, 1000);
+            return false;
+        });
         </script>
     </body>
     </html>
