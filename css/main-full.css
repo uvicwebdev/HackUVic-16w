@@ -87,9 +87,6 @@ strong {
     margin: auto;
     text-align: center;
 }
-.nav-section p {
-    margin-bottom: 20px;
-}
 .nav-section ol li,
 .nav-section ul li {
     list-style: decimal;
@@ -97,6 +94,11 @@ strong {
     font-size: 15px;
     padding-bottom: 8px;
     font-weight: 300;
+}
+.nav-section p,
+.nav-section ul,
+.nav-section ol {
+    padding-bottom: 20px;
 }
 .nav-section a {
     text-decoration: underline;
@@ -153,6 +155,14 @@ hr {
 .judging p,
 .judging ol {
     text-align: justify;
+}
+.judging p:nth-of-type(4n) {
+    text-align: center;
+}
+.judges-list {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
 }
 /*Poop Containers*/
 .poop-holder-container {
