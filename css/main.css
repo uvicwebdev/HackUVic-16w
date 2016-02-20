@@ -14,10 +14,11 @@ January 2016
 }
 /*Typography ----------------------------------- */
 h1, .Sign-Up a {
+    font-size: 20px;
+    text-align: center;
     font-weight: 300;
-    font-size: 2.25vw;
     line-height: 2;
-    max-width: 800px;
+    max-width: 500px;
 }
 ul {
     list-style-position: outside;
@@ -45,12 +46,12 @@ u {
 /*Containers ----------------------------------- */
 .poop-holder {
     position: relative;
+    display: inline-block;
     margin-top: -1rem;
 }
 .poop,
 .poop-after {
-    font-size: 1.9vw;
-    border: 1px solid rgba(0,0,0,9);
+    border: 1px solid rgba(0,0,0,1);
     padding: 12px 24px;
     position: relative;
     z-index: 2;
@@ -104,6 +105,9 @@ u:nth-of-type(2) {
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
 }
+.flex-align-horizontal {
+    align-items: center;
+}
 /*Animations ----------------------------------- */
 .first-section {
     -webkit-animation: fadeup 1s;
@@ -124,7 +128,7 @@ u:nth-of-type(2) {
 @media (min-width:1201px) {
     h1,
     .Sign-Up a {
-        font-size: 32px;
+        font-size: 20px;
         line-height: 2;
     }
     .poop {

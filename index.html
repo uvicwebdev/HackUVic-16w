@@ -2,49 +2,230 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>
-		HackVictoria
-	</title>
-	<!-- Mobile -->
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+        HackVictoria
+    </title>
+    <!-- Mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<!-- Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Roboto:700,300,500' rel='stylesheet' type='text/css'>
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:700,300,400,500' rel='stylesheet' type='text/css'>
 
-	<!-- Stylesheets -->
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/animations.css">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/main-full.css">
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
 
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js">
+
+    </script>
 </head>
 <body>
-	<div class="flex flex-direction-col flex-start flex-spread container">
-		<section class="first-section">
-			<h1><b>HackVictoria</b> is an event for developers and designers of all skill levels to launch their own project that makes something about Victoria better. </h1>
-		</section>
-
-<!-- Dominique Addition - Form Button -->
-		<section class="Sign-Up">
-			<a class="typeform-share" href="https://erikreppel.typeform.com/to/g2oGRA" data-mode="1" target="_blank">Sign Up &#92;(&lsquo; &#8711; &rsquo;)/</a>
-		</section>
-<!-- End Dominique Addition - Form Button -->
-
-		<section class="second-section">
-			<div class="poop-holder">
-				<div class="poop">schedule, sponsors, and more info coming soon</div>
-				<div id="color" class="poop-after">schedule, sponsors, and more info coming soon</div>
-			</div>
-		</section>
-		<section class="third-section">
-			<ul>
-				<li><u>/</u> March 12th and 13th 2016 <u>/</u> Held at the University of Victoria</li>
-				<li><u>/</u> If you want to get involved as a participant, join our <a href="https://www.facebook.com/groups/UVic.io/" target="_blank">facebook group</a> or <a href="https://webdevclub.slack.com" target="_blank">slack channel</a></li>
-				<li><u>/</u> If you are interested in sponsoring shoot us an <a href="mailto:erikreppel@gmail.com" target="_blank">email</a></li>
-				<li><u>/</u> Hosted by the <a href="http://uvic.club/" target="_blank">UVic Design and Development Club</a></li>
-			</ul>
-		</section>
-	</div>
-	<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
-</body>
-</html>
+    <section class="first-fade">
+        <nav class="fixed-nav">
+            <ul>
+                <li><a href="#guidelines">guidelines</a></li>
+                <li><a href="#schedule">schedule</a></li>
+                <li class="mobile-hide"><a href="#judging">judging</a></li>
+                <li class="mobile-hide"><a href="#sponsors">sponsors</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <!-- Hero / Register -->
+    <div class="flex flex-direction-col flex-align-horizontal flex-spread container">
+        <div class="hero-container">
+            <section class="first-fade">
+                <h1><b>HackVictoria</b> is an event for developers and designers of all skill levels to launch their
+                    own project that makes something about Victoria better. <strong>March 12th and 13th</strong>, at the University of Victoria. </h1>
+                </section>
+                <section class="second-fade">
+                    <div class="poop-holder-container">
+                        <div class="poop-holder">
+                            <div class="poop">
+                                <a class="typeform-share" href="https://erikreppel.typeform.com/to/g2oGRA" data-mode="1" target="_blank">register in 30 seconds</a>
+                            </div>
+                            <div id="color" class="poop-after"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- Guidelines -->
+        <div id="guidelines" class="nav-section">
+            <section class="second-fade">
+                <hr>
+                <h2>Guidelines</h2>
+            </section>
+            <p>
+                The <strong>objective</strong> is to find something in Victoria that could be better, and make it awesome
+                with technology.
+            </p>
+            <span>Rules</span>
+            <ol>
+                <li>The hackathon is open to anyone, <strong>teams of 2 to 5</strong>.</li>
+                <li>
+                    Be awesome and inclusive. This is as much of an opportunity to meet people and exchange ideas as it
+                    is to compete.
+                </li>
+            </ol>
+            <span>Resources</span>
+            <ul>
+                <li>
+                    <a target="_blank" href="http://www.victoria.ca/EN/main/city/open-data-catalogue.html">
+                        <strong>Victoria</strong> Data Set
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.saanich.ca/data/">
+                        <strong>Saanich</strong> Data Set
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.opendatabc.ca/dataset">
+                        <strong>BC</strong> Data Set
+                    </a>
+                </li>
+            </ul>
+            <span>Deals</span>
+            <ul>
+                <li>
+                    <a target="_blank" href="https://education.github.com/pack">
+                        GitHub Student Pack
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://startupstash.com/">
+                        List of Start up Resources
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://auth0.com/ ">
+                        App Authentication (free up to 7000 active users)
+                    </a>
+                </li>
+            </ul>
+            <span>Ideas to get started</span>
+            <section class="ideas">
+                <ul>
+                    <li>
+                        <strong>Safe path:</strong> Find the best lit route from point A to point B (use google maps/data on where
+                        street lights are).
+                    </li>
+                    <li>
+                        <strong>Pet a Pooch:</strong> Choose a type of dog you would like to pet and it get recommendations for which
+                        dog park you are most likely to find it (could use location of user, cross-references with dog licenses by
+                        neighbourhood, etc.)
+                    </li>
+                    <li>
+                        <strong>Conquest for Liquid Courage:</strong> Find all places in walking distance with a liquor license
+                    </li>
+                    <li>
+                        <strong>Unified Garbage Collection Scheduler:</strong> Put garbage collection schedules for Saanich and Victoria in
+                        the same place (exports to google calendar?)
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <!-- Schedule -->
+        <div id ="schedule" class="nav-section">
+            <hr>
+            <h2>Schedule</h2>
+            <span>Saturday, March 12th</span>
+            <ul>
+                <li><u>10am</u> Open Ceremonies and Rules Overview</li>
+                <li><u>11am</u> Lunch/Socialize/Finalize Teams</li>
+                <li><u>12pm</u> Start Hacking</li>
+                <li><u>5pm</u> Dinner</li>
+                <li><u>10pm</u> Night-time Snack</li>
+            </ul>
+            <span>Sunday, March 13th</span>
+            <ul>
+                <li><u>10am</u> Breakfast</li>
+                <li><u>12pm</u> Presentations</li>
+                <li><u>1pm</u> Lunch</li>
+                <li><u>2pm</u> Awards ceremony</li>
+                <li><u>3pm</u> Clean up</li>
+            </ul>
+        </div>
+        <!-- Judging -->
+        <div id="judging" class="nav-section judging">
+            <hr>
+            <h2>Judging</h2>
+            <span>Technical Complexity /20 (weighted)</span>
+            <p>
+                How technically difficult was the project to build and execute? How well was it executed? Were there any
+                obvious bugs in the demo? Judges will briefly review the source code and assign a score. This category
+                will be weighted by the experience of the team to make the playing field even for first year students
+                competing against 4th years or professionals.
+            </p>
+            <span>Benefit to the Community /10</span>
+            <p>
+                Judges will assign a score based on how beneficial they think the project will be to the community as a
+                whole. 1 being the project would have a marginal impact, 5 being the project has the potential to be
+                used daily by many Victorians.
+            </p>
+            <span>Presentation /10</span>
+            <p>
+                At the end of the hackathon each team will give a short presentation and demo of their project.
+                The presentation should include:
+            </p>
+            <ol>
+                <li>
+                    A brief description of the motivation to build the project
+                </li>
+                <li>
+                    An overview of technologies used
+                </li>
+                <li>
+                    A demo of how the project works, and the scenario where it would be used
+                </li>
+                <li>
+                    An overview of what the nexts steps for the project should be, are there features that need to be added?
+                    Is there a minor bug that needs to be fixed? What would the team need to do after the hackathon in
+                    able for the project to be ready to be used by the people of Victoria.
+                </li>
+            </ol>
+            <span>Did You Demo a Live Version? /10</span>
+            <ul>
+                <li>0/10 - Didn&#39;t have a working project</li>
+                <li>5/10 - Had a live demo, but not something that everyone could try</li>
+                <li>10/10 - Had a live demo, everyone could try your project</li>
+            </ul>
+            <span>Judges</span>
+            <ul>
+                <li>Izaak Schroeder, <a target="_blank" href="http://metalab.co/">MetaLab</a></li>
+                <li>James Phillips, <a target="_blank" href="http://metalab.co/">MetaLab</a></li>
+                <li>Rob O'Dwyer, <a target="_blank" href="https://www.pretio.in/">Pretio Interactive</a></li>
+            </ul>
+        </div>
+        <!-- Sponsors -->
+        <div id="sponsors" class="nav-section">
+            <hr>
+            <h2>Sponsors</h2>
+            <a target="_blank" href="http://metalab.co/"><img src="images/metalab-logo.png" alt="MetaLab" /></a>
+            <p>
+                Interested in sponsoring? <a target-"_blank" href="mailto:erikreppel@gmail.com">Shoot us an email</a>.
+            </p>
+        </div>
+        <footer id="contact">
+            <ul>
+                <li><a target="blank" href="http://uvic.club/">website</a></li>
+                <li><a target="blank" href="https://github.com/kelseyll">github</a></li>
+                <li><a target="blank" href="https://www.facebook.com/groups/UVic.io/">facebook</a></li>
+                <li><a target="blank" href="https://twitter.com/UVicWebDev">twitter</a></li>
+            </ul>
+        </footer>
+        <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
+        <script type="text/javascript">
+        $('a').click(function(){
+            $('html, body').animate({
+                scrollTop: $( $(this).attr('href') ).offset().top
+            }, 1000);
+            return false;
+        });
+        </script>
+    </body>
+    </html>
