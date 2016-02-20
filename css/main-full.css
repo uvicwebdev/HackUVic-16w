@@ -10,15 +10,14 @@
 }
 /*Typography ----------------------------------- */
 body {
-    min-width: 330px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     letter-spacing: 0.5px;
-    margin: 10px;
+    margin: 15px;
 }
-@media (min-width: 650px) {
+@media (max-width: 650px) {
     body {
-        margin: 0;
+        margin: 5px;
     }
 }
 h1,
@@ -57,6 +56,9 @@ a {
     font-weight: 500;
     text-decoration: none;
 }
+a:hover {
+    color: #BDBDBD;
+}
 u {
     font-weight: 500;
     text-decoration: none;
@@ -78,10 +80,16 @@ strong {
     font-size: 15px;
     padding: 8px 0 8px 0;
 }
+.nav-section img {
+    display: block;
+    padding: 10px 0 30px 0;
+}
 .nav-section ol,
 .nav-section ul,
 .nav-section span,
-.nav-section p
+.nav-section p,
+.nav-section img,
+footer
  {
     max-width: 600px;
     margin: auto;
@@ -114,8 +122,14 @@ strong {
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 604px;
+    max-width: 604px;
+    width: 100%;
     height: 50px;
+}
+
+.fixed-nav ul {
+    margin-top: 0 !important;
+    text-align: center;
 }
 .fixed-nav li {
     display: inline-block;
@@ -124,6 +138,31 @@ strong {
 }
 .fixed-nav a {
     font-weight: 400;
+}
+footer li {
+    display: inline-block;
+    padding: 0 10px 30px 10px;
+}
+footer a {
+    text-decoration: underline;
+    font-weight: 300;
+    font-size: 16px;
+}
+li.mobile-hide,
+.mobile-hide a {
+    display: inline-block;
+}
+@media (max-width: 650px) {
+    li.mobile-hide,
+    .mobile-hide a {
+        display: none;
+    }
+}
+@media (max-width: 650px) {
+    footer li {
+        padding: 0 4px 30px 4px;
+    }
+
 }
 /*Elements*/
 hr {
@@ -160,11 +199,6 @@ hr {
 .judging p:nth-of-type(4n) {
     text-align: center;
 }
-.judges-list {
-    flex-direction: row;
-    -webkit-flex-direction: row;
-    -moz-flex-direction: row;
-}
 /*Poop Containers*/
 .poop-holder-container {
     text-align: center;
@@ -175,7 +209,11 @@ hr {
     margin-top: 100px;
 }
 .poop a {
+    color: #000;
     font-weight: 300;
+}
+.poop a:hover {
+    color: #BDBDBD;
 }
 .poop,
 .poop-after {
