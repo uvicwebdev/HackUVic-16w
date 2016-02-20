@@ -19,6 +19,7 @@ body {
 @media (max-width: 650px) {
     body {
         margin: 5px;
+        margin-top: 0;
     }
 }
 h1,
@@ -123,7 +124,7 @@ footer
     left: 0;
     right: 0;
     margin: 0 auto;
-    max-width: 604px;
+    max-width: 608px;
     width: 100%;
     height: 50px;
 }
@@ -155,6 +156,12 @@ li.mobile-hide,
 @media (max-width: 650px) {
     li.mobile-hide,
     .mobile-hide a {
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    li.small-mobile-hide,
+    .small-mobile-hide a {
         display: none;
     }
 }
@@ -219,7 +226,7 @@ hr {
     font-weight: 300;
 }
 .poop a:hover {
-    color: #757575;
+    color: blue;
 }
 .poop,
 .poop-after {
