@@ -18,7 +18,7 @@ body {
 }
 @media (max-width: 650px) {
     body {
-        margin: 5px;
+        margin: 20px;
         margin-top: 0;
     }
 }
@@ -192,7 +192,6 @@ hr {
 }
 /*Containers*/
 .hero-container {
-    height: calc(100vh - 150px);
 }
 .nav-section {
     margin: 10px auto;
@@ -219,7 +218,6 @@ hr {
 .poop-holder {
     position: relative;
     display: inline-block;
-    margin-top: 100px;
 }
 .poop a {
     color: #000;
@@ -263,28 +261,5 @@ hr {
     -webkit-animation: fadeup-delay 1s;
     -moz-animation: fadeup-delay 1s;
     animation: fadeup-delay 1s;
-}
-/*Flex ----------------------------------- */
-.flex {
-    display: flex;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-}
-.flex-spread {
-    justify-content: space-around;
-    -moz-justify-content: space-around;
-    -webkit-justify-content: space-around;
-}
-.flex-start {
-    align-items: flex-start;
-    -moz-align-items: flex-start;
-    -webkit-align-items: flex-start;
-}
-.flex-direction-col {
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-}
-.flex-align-horizontal {
-    align-items: center;
+    padding-top: 8%;
 }
