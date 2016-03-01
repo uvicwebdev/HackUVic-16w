@@ -84,6 +84,10 @@ u:nth-of-type(2) {
 .second-section {
     margin-top: 20px;
 }
+
+.sponsors {
+    display: inline-block;
+}
 /*Flex ----------------------------------- */
 .flex {
     display: flex;
