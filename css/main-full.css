@@ -252,6 +252,15 @@ hr {
     -moz-animation: color-change 10s infinite;
     animation: color-change 10s infinite;
 }
+
+.silver-level{
+     padding-top:20px;
+}
+
+.silver-level a, .silver-level img {
+   display: inline;
+
+}
 /*Animations ----------------------------------- */
 .first-fade {
     -webkit-animation: fadeup 1s;
