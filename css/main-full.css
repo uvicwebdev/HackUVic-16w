@@ -197,12 +197,16 @@ hr {
     margin: 10px auto;
 }
 #guidelines,
-#schedule,
+#winners,
 #judging,
 #sponsors,
 #contact,
 #prizes {
     padding-top: 80px;
+}
+#winners h3 {
+    margin-bottom: 0px;
+    margin-top: 30px;
 }
 .judging p,
 .judging ol,
