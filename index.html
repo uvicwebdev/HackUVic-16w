@@ -34,9 +34,13 @@
     <section class="first-fade">
         <nav class="fixed-nav">
             <ul>
-                <li><a href="#winners">winners</a></li>
+                <li><a href="#guidelines">guidelines</a></li><!-- 
+                <li><a href="#schedule">schedule</a></li> -->
+                <li class="small-mobile-hide"><a href="#judging">judging</a></li>
+                <li><a href="#prizes">prizes</a></li>
                 <li class="mobile-hide"><a href="#sponsors">sponsors</a></li>
-                <li class="mobile-hide"><a href="#contact">contact</a></li>
+                <li class="mobile-hide"><a href="#contact">get involved</a></li><!-- 
+                <li class="mobile-hide"><a href="#contact">contact</a></li> -->
             </ul>
         </nav>
     </section>
@@ -44,24 +48,184 @@
     <div class="container">
         <div class="hero-container">
             <section class="first-fade">
-                <h1><b>HackVictoria 2016</b> took place on March 12th and 13th, at the University of Victoria. </h1>
-                </section>
-                <section class="second-fade">
-                    <h3>For updates on HackVictoria 2017, </h3>
-                    <div class="poop-holder-container">
-                        <div class="poop-holder">
-                            <div class="poop">
-                                <a href="https://twitter.com/intent/follow?screen_name=HackVic" data-mode="1" >
-                                    Follow us on Twitter
-                                </a>
-                            </div>
-                            <div id="color" class="poop-after"></div>
+                <h1><b>HackVictoria 2017</b> <br>For developers and designers of all skill levels.<br>
+                <strong>March 11th and 12th</strong>. University of Victoria. </h1>
+            </section>
+            <section class="second-fade">
+                <div class="poop-holder-container">
+                    <div class="poop-holder">
+                        <div class="poop">
+                            <a class="typeform-share" href="https://moadben.typeform.com/to/nicZ9T" data-mode="1" target="_blank">register in 30 seconds</a>
                         </div>
+                        <div id="color" class="poop-after"></div>
                     </div>
-                </section>
-            </div>
+                </div>
+            </section>
         </div>
-        <!-- Location -->
+    </div>
+    <!-- Guidelines -->
+    <div id="guidelines" class="nav-section">
+        <section class="second-fade">
+            <hr>
+            <h2>Guidelines</h2>
+        </section>
+        <p>
+            The <strong>objective</strong> is to find something in Victoria that could be better, and make it awesome
+            with technology.
+        </p>
+        <span>Rules</span>
+        <ol>
+            <li>The hackathon is open to anyone, <strong>teams of 2 to 5</strong>.</li>
+            <li>
+                Be awesome and inclusive. This is as much of an opportunity to meet people and exchange ideas as it
+                is to compete.
+            </li>
+        </ol>
+        <span>Resources</span>
+        <ul>
+            <li>
+                <a target="_blank" href="http://www.victoria.ca/EN/main/city/open-data-catalogue.html">
+                    <strong>Victoria</strong> Data Sets
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="http://www.saanich.ca/data/">
+                    <strong>Saanich</strong> Data Sets
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.opendatabc.ca/dataset">
+                    <strong>BC</strong> Data Sets
+                </a>
+            </li>
+        </ul>
+        <span>Deals</span>
+        <ul>
+            <li>
+                <a target="_blank" href="https://education.github.com/pack">
+                    GitHub Student Pack
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="http://startupstash.com/">
+                    List of Start up Resources
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="https://auth0.com/ ">
+                    App Authentication (free up to 7000 active users)
+                </a>
+            </li>
+        </ul>
+        <span>Ideas to get started</span>
+        <section class="ideas">
+            <ul>
+                <li>
+                    <strong>Safe path:</strong> Find the best lit route from point A to point B (use google maps/data on where
+                    street lights are). (<a href="http://www.gettheresafe.net/" target="_blank">Here</a> is an example implementation by UVic Web Dev members Christophe Pouliot, Dominique Charlebois and AJ at nwHacks.)
+                </li>
+                <li>
+                    <strong>Pet a Pooch:</strong> Choose a type of dog you would like to pet and it get recommendations for which
+                    dog park you are most likely to find it (could use location of user, cross-references with dog licenses by
+                    neighbourhood, etc.)
+                </li>
+                <li>
+                    <strong>Conquest for Liquid Courage:</strong> Find all places in walking distance with a liquor license
+                </li>
+                <li>
+                    <strong>Unified Garbage Collection Scheduler:</strong> Put garbage collection schedules for Saanich and Victoria in
+                    the same place (exports to google calendar?)
+                </li>
+            </ul>
+        </section>
+
+    </div>
+    <!-- Schedule -->
+    <!-- <div id ="schedule" class="nav-section">
+        <hr>
+        <h2>Schedule</h2>
+        <span>Saturday, March 12th</span>
+        <ul>
+            <li><u>10am</u> Open Ceremonies and Rules Overview</li>
+            <li><u>11am</u> Lunch/Socialize/Finalize Teams</li>
+            <li><u>12pm</u> Start Hacking</li>
+            <li><u>5pm</u> Dinner</li>
+            <li><u>10pm</u> Night-time Snack</li>
+        </ul>
+        <span>Sunday, March 13th</span>
+        <ul>
+            <li><u>10am</u> Breakfast</li>
+            <li><u>12pm</u> Presentations</li>
+            <li><u>1pm</u> Lunch</li>
+            <li><u>2pm</u> Awards ceremony</li>
+            <li><u>3pm</u> Clean up</li>
+        </ul>
+    </div> -->
+    <!-- Judging -->
+    <div id="judging" class="nav-section judging">
+        <hr>
+        <h2>Judging</h2>
+        <span>Technical Complexity /20 (weighted)</span>
+        <p>
+            How technically difficult was the project to build and execute? How well was it executed? Were there any
+            obvious bugs in the demo? Judges will briefly review the source code and assign a score. This category
+            will be weighted by the experience of the team to make the playing field even for first year students
+            competing against 4th years or professionals.
+        </p>
+        <span>Benefit to the Community /10</span>
+        <p>
+            Judges will assign a score based on how beneficial they think the project will be to the community as a
+            whole. 1 being the project would have a marginal impact, 5 being the project has the potential to be
+            used daily by many Victorians.
+        </p>
+        <span>Presentation /10</span>
+        <p>
+            At the end of the hackathon each team will give a short presentation and demo of their project.
+            The presentation should include:
+        </p>
+        <ol>
+            <li>
+                A brief description of the motivation to build the project
+            </li>
+            <li>
+                An overview of technologies used
+            </li>
+            <li>
+                A demo of how the project works, and the scenario where it would be used
+            </li>
+            <li>
+                An overview of what the nexts steps for the project should be, are there features that need to be added?
+                Is there a minor bug that needs to be fixed? What would the team need to do after the hackathon in
+                able for the project to be ready to be used by the people of Victoria.
+            </li>
+        </ol>
+        <span>Did You Demo a Live Version? /10</span>
+        <ul>
+            <li>0/10 - Didn&#39;t have a working project</li>
+            <li>5/10 - Had a live demo, but not something that everyone could try</li>
+            <li>10/10 - Had a live demo, everyone could try your project</li>
+        </ul>
+        <!-- <span>Judges</span>
+        <ul>
+            <li>Izaak Schroeder, <a target="_blank" href="http://metalab.co/">MetaLab</a></li>
+            <li>James Phillips, <a target="_blank" href="http://metalab.co/">MetaLab</a></li>
+            <li>Rob O'Dwyer, <a target="_blank" href="https://www.pretio.in/">Pretio Interactive</a></li>
+            <li>Alfonso Esteves, <a target="_blank" href="http://www.sendwithus.com/"> SendWithUs </a></li>
+            <li>Clarke Brunsdon , <a target="_blank" href="http://www.stembolt.com/"> Stembolt </a></li>
+            <li>Katherine Chin Aleong , <a target="_blank" href="http://www.workday.com/"> Workday </a></li>
+        </ul> -->
+    </div>
+     <!-- Prizes -->
+     <div id ="prizes" class="nav-section">
+        <hr>
+        <h2>Prizes</h2>
+        <h3>
+            To be determined.
+        </h3>
+        
+    </div>
+
+        <!-- 
         <div id="winners" class="nav-section">
             <section class="second-fade">
                 <hr>
@@ -126,13 +290,18 @@
                 <li>Dana Prajea
             </ul>
 
-        </div>
+        </div> -->
         <!-- Sponsors -->
         <div id="sponsors" class="nav-section">
             <hr>
             <h2>Sponsors</h2>
             <div class="flex flex-spread sponsors">
-                <a target="_blank" href="http://beanstream.com/"><img style="width:230px" src="images/beanstream-logo.png" alt="Beanstream" /></a>
+                <h3>
+                    <b>Coming soon</b>
+                    <br/>
+                    Want to sponsor? Contact us <a href="mailto:victoriahacks@gmail.com">here</a>.
+                </h3>
+              <!--   <a target="_blank" href="http://beanstream.com/"><img style="width:230px" src="images/beanstream-logo.png" alt="Beanstream" /></a>
                 <a target="_blank" href="http://metalab.co/"><img src="images/metalab-logo.png" alt="MetaLab" /></a>
                 <a target="_blank" href="http://www.ibm.com/ca-en/"><img style="width:160px; padding-bottom: 10px;" src="images/ibm-logo.jpg" alt="IBM" /></a>
                 <a target="_blank" href="http://stembolt.com/"><img style="width:230px" src="images/stembolt.svg" alt="Stembolt" /></a>
@@ -143,7 +312,31 @@
                 <a target="_blank" href="http://www.famoso.ca/"><img style="width:200px; padding-top: 0;" src="images/famoso-logo.png" alt="famoso" /></a>
                 <p style="padding-top:20px"> Thanks to our Silver Sponsors! </p>
                 <a target="_blank" href="http://redbrickmedia.com"><img style="width: 120px;" src="images/rbm-logo.png" alt="RedBrickMedia" /></a>
-                <a target="_blank" href="https://www.csc.uvic.ca/"><img style="width: 50px;" src="images/uvic-logo.jpg" alt="UvicCompSci" /></a>
+                <a target="_blank" href="https://www.csc.uvic.ca/"><img style="width: 50px;" src="images/uvic-logo.jpg" alt="UvicCompSci" /></a> -->
+            </div>
+        </div>
+        <!-- Sponsors -->
+        <div id="getinvolved" class="nav-section">
+            <hr>
+            <h2>Get Involved</h2>
+            <div class="flex flex-spread sponsors">
+              <h3>
+                <b>Participate</b>
+                <br/>
+                Register <a href="https://moadben.typeform.com/to/nicZ9T" target="_blank">here</a> to compete.
+            </h3>
+
+            <h3>
+                <b>Attend Workshops</b>
+                <br/>
+                We'll be hosting a variety of <a href="" target="_blank">prep-a-thons</a> leading up to the event to best prepare you for the competition.
+            </h3>
+
+            <h3>
+                <b>Volunteer</b>
+                <br/>
+                Wanna help? Feel free to <a href="mailto:victoriahacks@gmail.com">contact us</a> to get involved. It's all about community!
+            </h3>
             </div>
         </div>
         <footer id="contact">
