@@ -34,6 +34,9 @@ h3 {
     margin: auto;
     margin-bottom: 20px;
 }
+.second-fade h1 {
+  padding-top: 50px;
+}
 h2 {
     background-color: #FFF;
     padding-top: 0;
@@ -276,5 +279,10 @@ hr {
     -webkit-animation: fadeup-delay 1s;
     -moz-animation: fadeup-delay 1s;
     animation: fadeup-delay 1s;
+}
+.third-fade {
+    -webkit-animation: fadeup-delay 2s;
+    -moz-animation: fadeup-delay 2s;
+    animation: fadeup-delay 2s;
     padding-top: 8%;
 }
