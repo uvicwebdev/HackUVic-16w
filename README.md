@@ -1,5 +1,7 @@
 ## HackVictoria Website
-###Sections
+
+### Sections
+
 1. Register
 2. Guidelines
 3. Schedule
